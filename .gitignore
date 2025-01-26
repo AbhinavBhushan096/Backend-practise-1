@@ -37,5 +37,27 @@ jspm_packages
 .node_repl_history
 .DS_Store
 
-#Excluding build directory
+# Excluding build directory
 public/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional IDE directories
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional yarn cache
+.yarn/
+.pnp.*
